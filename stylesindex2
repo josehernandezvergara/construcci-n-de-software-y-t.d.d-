@@ -1,0 +1,36 @@
+/* TODO: Centrar la navegación vertical y horizontalmente usando Flexbox */
+body {
+    height: 100vh;
+    margin: 0;
+  
+    /* Agrega display flex y propiedades de alineación */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* TODO: Quitar las viñetas de la lista */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Agrega display flex para alinear los elementos en línea */
+    display: flex;
+    /* Puedes usar gap o márgenes para separar los elementos */
+    gap: 2rem; 
+  }
+  
+  /* TODO: Estilo base de los enlaces */
+  a {
+    /* Quita el subrayado */
+    text-decoration: none;
+    /* Establece color negro */
+    color: black;
+  }
+  
+  /* TODO: Estilo cuando el mouse pasa sobre el enlace */
+  a:hover {
+    /* Cambia el color a azul */
+    color: blue;
+  }
+  
